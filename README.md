@@ -1,0 +1,1 @@
+Iniciar as classes "SistemaclientserverApplication" em seguida iniciar a classe "Cliente" e digitar a mensagem no terminal do Cliente, posteriormente verficar no terminal do SistemaclientserverApplication
