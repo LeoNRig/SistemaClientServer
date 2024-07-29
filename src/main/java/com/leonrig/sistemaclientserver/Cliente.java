@@ -18,7 +18,9 @@ public class Cliente {
             String mensagem;
             System.out.println("Digite a mensagem");
 
-            while ((mensagem = stdIn.readLine()) != null) {}
+            while ((mensagem = stdIn.readLine()) != null) {
+                out.println(mensagem);
+            }
         }catch (IOException e) {
             e.printStackTrace();
         }

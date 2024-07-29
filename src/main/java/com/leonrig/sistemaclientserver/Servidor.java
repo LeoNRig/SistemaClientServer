@@ -9,7 +9,7 @@ public class Servidor {
     private static final int PORT = 12345;
     public static void main(String[] args) {
         try(ServerSocket serverSocket = new ServerSocket(PORT)) {
-            System.out.println("Servidor criado, porta" + PORT);
+            System.out.println("Servidor criado, porta " + PORT);
             while(true) {
                 Socket socket = serverSocket.accept();
                 new Thread(new ClientHandler(socket)).start();
